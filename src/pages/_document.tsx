@@ -8,7 +8,10 @@ class MyDocument extends Document {
     return (
       <Html lang={AppConfig.locale}>
         <Head />
-        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"/>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+          rel="stylesheet"
+        />
         <body>
           <Main />
           <NextScript />
