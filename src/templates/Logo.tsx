@@ -10,7 +10,12 @@ const Logo = (props: ILogoProps) => {
 
   return (
     <span className={`text-gray-900 inline-flex items-center ${fontStyle}`}>
-      <img src="/auxilio-logo.png" alt="Auxilio Logo" width={size} height={size} />
+      <img
+        src="/auxilio-logo.png"
+        alt="Auxilio Logo"
+        width={size}
+        height={size}
+      />
     </span>
   );
 };

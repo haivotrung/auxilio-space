@@ -5,7 +5,7 @@ import { Logo } from './Logo';
 
 const Footer = () => (
   // eslint-disable-next-line react/jsx-no-comment-textnodes
-  <Background color="bg-lime-300">
+  <Background color="bg-[#f1f2ec]">
     <Section>
       <CenteredFooter logo={<Logo xl />}></CenteredFooter>
     </Section>
