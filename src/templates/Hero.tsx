@@ -35,8 +35,8 @@ const Hero = () => (
     />
 
     <Section
-      title=""
-      description=""
+      title="What’s next?"
+      description="We want to share resources and support for other organizations here in New York that we hope can be of help and also deserve support for the incredible work that they’re doing as we close auxilio. Please check out our Instagram for these resources."
       // eslint-disable-next-line react/no-children-prop
       children={undefined}
     ></Section>
