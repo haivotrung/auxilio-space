@@ -28,17 +28,12 @@ const Hero = () => (
 
     <Section
       yPadding="pt-2"
-      title="Thank you for your support! We are pausing auxilio for the forseeable future."
+      title="Thank you for your support! We are so thankful to everyone who supported this project and its mission from the start of 2020 to this year!"
       // eslint-disable-next-line react/no-children-prop
       children={undefined}
     />
 
-    <Section
-      title="auxilio financials facts"
-      description="Last year we raised $22,000 through support from our community. the overhead costs for the physical space annually were $31,000 before funding the food distribution program. we’ve absorbed as much of these costs as possible. to continue this year without long term funding is not viable. we will publish an annual report here soon for the public. más amor and we look forward to working to serve our communities with other organizations."
-      // eslint-disable-next-line react/no-children-prop
-      children={undefined}
-    ></Section>
+    
   </Background>
 );
 
