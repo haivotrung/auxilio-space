@@ -28,12 +28,18 @@ const Hero = () => (
 
     <Section
       yPadding="pt-2"
-      title="Thank you for your support! We are so thankful to everyone who supported this project and its mission from the start of 2020 to this year!"
+      title="Thank you for your support!"
+      description= "We are so thankful to everyone who supported this project and its mission from the start of 2020 to this year!"
       // eslint-disable-next-line react/no-children-prop
       children={undefined}
     />
 
-    
+    <Section
+      title=""
+      description=""
+      // eslint-disable-next-line react/no-children-prop
+      children={undefined}
+    ></Section>
   </Background>
 );
 
